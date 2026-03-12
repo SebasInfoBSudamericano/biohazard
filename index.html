@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BioHazard</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <title>BioHazard | Sistema Bloqueado</title>
+
+  <!-- Favicon SVG inline -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg viewBox='108 241 402 373' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cstyle%3E.s0%7Bfill:%23589532%7D.s1%7Bfill:%231e1e1c%7D%3C/style%3E%3C/defs%3E%3Cellipse class='s0' cx='308.98' cy='427.44' rx='190.14' ry='176.45'/%3E%3Cpath class='s1' d='M414.62,385.28c-4.96-2.06-6.85-1.16-11.62-.45-.39.05-.71-.21-.71-.57v-34.46c0-.16-.06-.3-.19-.41l-43.32-39.72c-.12-.11-.27-.16-.42-.16-32.84-.11-65.53-1.11-98.36-.68-.15,0-.31.05-.42.16-15.26,13.65-29.78,27.94-44.5,42.08-.06.05-.12.13-.14.21-1.45,3.76,0,8.22.12,11.96.25,6.98.39,13.97.54,20.95,0,.38-.37.64-.75.57-9.53-1.86-17.43.77-21.38,9.49-3.67,8.11.27,16.19,3.09,24,3.99,11.14,8.95,22.03,13.12,33.09.08.21.31.38.56.38l17.33.63c.12,0,.23.04.33.11l.98.64c.15.11.27.27.27.45.29,9.01-.14,18.05.06,27.06.02,1.29.62,2.49.64,3.8.17,7.63-.54,15.44.41,22.99,0,.13.08.25.17.34l38.86,37.5s.14.11.21.13l1.83.73s.15.05.25.05l75.26-.04c.15,0,.31-.05.42-.14,14.07-11.91,26.8-25.54,40.27-38.2.12-.11.17-.23.17-.38.91-17.87,1.06-35.83,1.1-53.81,0-.18.1-.36.27-.47l1-.64s.17-.09.25-.09c4.71-.68,12.18.25,16.4-.52.46-.09.91-.11,1.18-.56,6.06-15.96,13.33-31.59,17.95-47.98v-.09c1-7.52-3.9-14.86-11.23-17.93v-.05ZM233.65,376.18c1.14-2.9,6.77-11.5,10.17-11.98,1.68-.25,14.72,7.54,17.25,9.01,10.86,6.32,21.55,13.07,32.09,19.88.1.07.19.16.23.27.95,2.54-3.03,9.37-4.61,11.52-3.51,4.82-10.23,9.69-16.42,11.09-11.31,2.53-20.53,1.38-29.56-5.5-11.19-8.52-14.03-21.72-9.13-34.26l-.02-.02ZM357.9,503.01c-.1,1.18-.58,4.58-1.08,5.43-.6.98-7.62,6.63-9.09,7.88-.14.13-.33.16-.52.16-.27,0-.52-.14-.62-.39-4.09-11.43-11.17-20.08-23.68-24.37-17.83-6.11-37.82-2.72-49.69,11.66-1.16,1.4-6.41,9.24-7.29,11.53-.12.29-.46.45-.77.34-2.97-.98-9.47-6.63-9.96-8.29v-.14l-.04-42.59s0-.14.04-.21l.77-1.7s.1-.16.17-.21l11.64-9.4c.19-.16,9.38,1.63,14.84,2.17,1.99.2,3.49.23,3.9-.05.87-.63.5-2.01,1.47-2.45h37.51c.41,0,.73.36.6.72-.06.14-.15.25-.31.32-.41.21-.48.73-.1.98,2.59,1.7,2.66,5.12,3.72,8.27.35,1.02.46.79,1.02,2.85.48,1.79,2.76,9.85,4.79,9.89.25,0,2.7-3.21,2.91-3.9,1.62-5.3,2.74-6.77,4.9-11.3.54-1.11,1.89-4.41,2.37-6.05.1-.36.54-.54.89-.36,1.06.52,2.55,1.45,3.2,2.18.14.14.33.21.54.2.87-.07.83.32.81.7,0,.25.15.47.39.57,1.64.63,3.24,1.83,3.72,3.51.04.13.12.23.21.32,2.16,1.54,2.47,2.4,2.78,5.09,1,9.26.77,27.24-.06,36.66v.02ZM374.83,406.88c-15.07,16.37-42.82,12.73-52.6-6.57-.95-1.86-2.66-5.03-1.51-6.89.87-1.4,6.45-4.89,8.22-6.07,9.75-6.52,22.93-14.6,33.35-20.04,4.13-2.15,6.33-4.64,10.23-1.36,11.56,9.72,12.31,30.03,2.28,40.92l.04.02Z'/%3E%3C/svg%3E">
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1VHRS6H99D"></script>
   <script>
@@ -14,63 +17,176 @@
 
     gtag('config', 'G-1VHRS6H99D');
   </script>
-</head>
-<body class="bg-gray-900 text-white">
+  
+  <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- Hero / Presentación -->
-  <header class="text-center py-20 bg-gradient-to-r from-indigo-800 to-purple-800">
-    <h1 class="text-5xl font-bold mb-4">BioHazard</h1>
-    <p class="text-xl max-w-2xl mx-auto">
-      Presentamos nuestro macroproyecto escolar: un juego emocionante con historia, arte y mecánicas únicas. ¡Descubre, juega y apoya nuestro proyecto!
-    </p>
-    <!-- <div class="mt-8">
-      <a href="#patrocinio" class="bg-indigo-500 hover:bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold">
-        Sé nuestro patrocinador
-      </a>
-    </div> -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            bioGreen: '#5D922E',
+            bioDark: '#0F0F0F',
+            bioAcid: '#84cc16',
+          },
+          animation: {
+            'glitch': 'glitch 0.3s cubic-bezier(.25,.46,.45,.94) infinite',
+          },
+          keyframes: {
+            glitch: {
+              '0%': { transform: 'translate(0)', 'box-shadow': '2px 0 #5D922E, -2px 0 #ff0000' },
+              '40%': { transform: 'translate(-2px, -2px)', 'box-shadow': '-2px 0 #5D922E, 2px 0 #ff0000' },
+              '100%': { transform: 'translate(0)' },
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Cursor de punto de mira para TODO el archivo */
+    html, body {
+      cursor: crosshair !important;
+    }
+
+    /* Bloquea el scroll inicialmente vía clase que se remueve con JS */
+    body.locked {
+      overflow: hidden;
+    }
+
+    /* Ocultar barra de scroll para estética de terminal */
+    ::-webkit-scrollbar { display: none; }
+
+    body::before {
+      content: " ";
+      display: block;
+      position: fixed;
+      top: 0; left: 0; bottom: 0; right: 0;
+      background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), 
+                  linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
+      z-index: 100;
+      background-size: 100% 4px, 3px 100%;
+      pointer-events: none;
+    }
+    .glow { filter: drop-shadow(0 0 10px rgba(93, 146, 46, 0.8)); }
+    .bg-grid {
+      background-image: radial-gradient(rgba(93, 146, 46, 0.1) 1px, transparent 1px);
+      background-size: 40px 40px;
+    }
+    .glitch-hover:hover { animation: glitch 0.3s cubic-bezier(.25,.46,.45,.94) infinite; border-color: #84cc16; }
+  </style>
+
+</head>
+
+<body class="bg-bioDark text-white font-sans selection:bg-bioGreen selection:text-black locked">
+
+  <div class="fixed inset-0 bg-grid pointer-events-none"></div>
+
+  <header class="relative h-screen flex flex-col items-center justify-center text-center px-6 overflow-hidden">
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-gradient-to-b from-bioGreen/10 to-transparent"></div>
+
+    <div class="relative z-10 flex flex-col items-center">
+      <svg id="Capa_1" class="w-36 h-36 mb-8 glow transition-transform hover:scale-110 duration-500" viewBox="115 250 390 360" xmlns="http://www.w3.org/2000/svg">
+        <!-- Generator: Adobe Illustrator 29.0.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 186)  -->
+        <defs>
+            <style>
+            .st0 {
+                fill: #589532;
+            }
+
+            .st1 {
+                fill: #1e1e1c;
+            }
+            </style>
+        </defs>
+        <ellipse class="st0" cx="308.98" cy="427.44" rx="190.14" ry="176.45"/>
+        <g>
+            <path class="st1" d="M414.62,385.28c-4.96-2.06-6.85-1.16-11.62-.45-.39.05-.71-.21-.71-.57v-34.46c0-.16-.06-.3-.19-.41l-43.32-39.72c-.12-.11-.27-.16-.42-.16-32.84-.11-65.53-1.11-98.36-.68-.15,0-.31.05-.42.16-15.26,13.65-29.78,27.94-44.5,42.08-.06.05-.12.13-.14.21-1.45,3.76,0,8.22.12,11.96.25,6.98.39,13.97.54,20.95,0,.38-.37.64-.75.57-9.53-1.86-17.43.77-21.38,9.49-3.67,8.11.27,16.19,3.09,24,3.99,11.14,8.95,22.03,13.12,33.09.08.21.31.38.56.38l17.33.63c.12,0,.23.04.33.11l.98.64c.15.11.27.27.27.45.29,9.01-.14,18.05.06,27.06.02,1.29.62,2.49.64,3.8.17,7.63-.54,15.44.41,22.99,0,.13.08.25.17.34l38.86,37.5s.14.11.21.13l1.83.73s.15.05.25.05l75.26-.04c.15,0,.31-.05.42-.14,14.07-11.91,26.8-25.54,40.27-38.2.12-.11.17-.23.17-.38.91-17.87,1.06-35.83,1.1-53.81,0-.18.1-.36.27-.47l1-.64s.17-.09.25-.09c4.71-.68,12.18.25,16.4-.52.46-.09.91-.11,1.18-.56,6.06-15.96,13.33-31.59,17.95-47.98v-.09c1-7.52-3.9-14.86-11.23-17.93v-.05ZM233.65,376.18c1.14-2.9,6.77-11.5,10.17-11.98,1.68-.25,14.72,7.54,17.25,9.01,10.86,6.32,21.55,13.07,32.09,19.88.1.07.19.16.23.27.95,2.54-3.03,9.37-4.61,11.52-3.51,4.82-10.23,9.69-16.42,11.09-11.31,2.53-20.53,1.38-29.56-5.5-11.19-8.52-14.03-21.72-9.13-34.26l-.02-.02ZM357.9,503.01c-.1,1.18-.58,4.58-1.08,5.43-.6.98-7.62,6.63-9.09,7.88-.14.13-.33.16-.52.16-.27,0-.52-.14-.62-.39-4.09-11.43-11.17-20.08-23.68-24.37-17.83-6.11-37.82-2.72-49.69,11.66-1.16,1.4-6.41,9.24-7.29,11.53-.12.29-.46.45-.77.34-2.97-.98-9.47-6.63-9.96-8.29v-.14l-.04-42.59s0-.14.04-.21l.77-1.7s.1-.16.17-.21l11.64-9.4c.19-.16,9.38,1.63,14.84,2.17,1.99.2,3.49.23,3.9-.05.87-.63.5-2.01,1.47-2.45h37.51c.41,0,.73.36.6.72-.06.14-.15.25-.31.32-.41.21-.48.73-.1.98,2.59,1.7,2.66,5.12,3.72,8.27.35,1.02.46.79,1.02,2.85.48,1.79,2.76,9.85,4.79,9.89.25,0,2.7-3.21,2.91-3.9,1.62-5.3,2.74-6.77,4.9-11.3.54-1.11,1.89-4.41,2.37-6.05.1-.36.54-.54.89-.36,1.06.52,2.55,1.45,3.2,2.18.14.14.33.21.54.2.87-.07.83.32.81.7,0,.25.15.47.39.57,1.64.63,3.24,1.83,3.72,3.51.04.13.12.23.21.32,2.16,1.54,2.47,2.4,2.78,5.09,1,9.26.77,27.24-.06,36.66v.02ZM374.83,406.88c-15.07,16.37-42.82,12.73-52.6-6.57-.95-1.86-2.66-5.03-1.51-6.89.87-1.4,6.45-4.89,8.22-6.07,9.75-6.52,22.93-14.6,33.35-20.04,4.13-2.15,6.33-4.64,10.23-1.36,11.56,9.72,12.31,30.03,2.28,40.92l.04.02Z"/>
+            <path class="st1" d="M278.76,465.49"/>
+            <path class="st1" d="M277.16,451.56l-9.38-1.63,10.98,26.83,7.76-24.71"/>
+        </g>
+        </svg>
+      
+      <h1 class="text-6xl md:text-8xl font-black tracking-tighter uppercase italic leading-none glow">
+        Bio<span class="text-bioGreen">Hazard</span>
+      </h1>
+      <p class="mt-6 text-lg md:text-xl text-gray-500 font-mono uppercase tracking-[0.3em]">
+        Acceso: <span class="text-red-600 animate-pulse font-bold">Denegado</span>
+      </p>
+      
+      <div class="mt-12">
+        <button onclick="unlockSystem()" class="bg-bioGreen hover:bg-bioAcid text-bioDark px-12 py-4 rounded-sm font-black uppercase tracking-tighter transition-all hover:scale-105 active:bg-white">
+          Iniciar Protocolo
+        </button>
+      </div>
+    </div>
   </header>
 
-  <!-- Sobre el juego -->
-  <section id="sobre" class="py-16 px-6">
-    <h2 class="text-3xl font-bold text-center mb-6">Sobre el juego</h2>
-    <p class="max-w-3xl mx-auto text-center text-lg">
-      Aquí puedes escribir una descripción más detallada: Cuál es la historia del juego, la idea principal, cómo se juega y qué lo hace especial. Puedes incluir capturas o renders más adelante.
-    </p>
-  </section>
+  <main id="main-content" class="opacity-0 transition-opacity duration-1000">
+    <section id="sobre" class="py-24 px-6 border-y border-bioGreen/10 bg-gradient-to-r from-transparent via-bioGreen/5 to-transparent">
+        <div class="max-w-4xl mx-auto">
+        <div class="border-l-4 border-bioGreen pl-8">
+            <h2 class="text-5xl font-black uppercase mb-6 italic">El Experimento</h2>
+            <p class="text-gray-300 text-xl leading-relaxed mb-8">
+            Diseñado para superar los estándares académicos, BioHazard es una fusión de <span class="text-bioGreen font-bold">programación avanzada</span> y <span class="text-bioGreen font-bold">arte conceptual</span>. Un entorno táctico donde la supervivencia no es una opción, es un milagro.
+            </p>
+        </div>
+        </div>
+    </section>
 
-  <!-- Imágenes / Capturas -->
-  <section id="capturas" class="py-16 bg-gray-800 px-6">
-    <h2 class="text-3xl font-bold text-center mb-6">Capturas del juego</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      <div class="bg-gray-700 h-48 rounded-lg"></div>
-      <div class="bg-gray-700 h-48 rounded-lg"></div>
-      <div class="bg-gray-700 h-48 rounded-lg"></div>
-      <div class="bg-gray-700 h-48 rounded-lg"></div>
-    </div>
-  </section>
+    <section id="capturas" class="py-24 px-6">
+      <h2 class="text-center text-3xl font-black uppercase mb-12 tracking-widest text-bioGreen italic">Registros Visuales</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+        <div class="glitch-hover relative bg-bioGreen/5 aspect-video overflow-hidden border-2 border-bioGreen/20 flex items-center justify-center">
+          <span class="font-mono text-bioGreen/60 text-xs text-center px-4">DATA_RECOVERED_01<br>[ CORRUPTED ]</span>
+        </div>
+        <div class="glitch-hover relative bg-bioGreen/5 aspect-video overflow-hidden border-2 border-bioGreen/20 flex items-center justify-center">
+          <span class="font-mono text-bioGreen/60 text-xs text-center px-4">DATA_RECOVERED_02<br>[ CORRUPTED ]</span>
+        </div>
+        <div class="glitch-hover relative bg-bioGreen/5 aspect-video overflow-hidden border-2 border-bioGreen/20 flex items-center justify-center">
+          <span class="font-mono text-bioGreen/60 text-xs text-center px-4">DATA_RECOVERED_03<br>[ CORRUPTED ]</span>
+        </div>
+        <div class="glitch-hover relative bg-bioGreen/5 aspect-video overflow-hidden border-2 border-bioGreen/20 flex items-center justify-center">
+          <span class="font-mono text-bioGreen/60 text-xs text-center px-4">DATA_RECOVERED_04<br>[ CORRUPTED ]</span>
+        </div>
+      </div>
+    </section>
 
-  <!-- Patrocinio / Llamado a la acción -->
-  <!-- <section id="patrocinio" class="py-16 px-6 text-center">
-    <h2 class="text-3xl font-bold mb-4">Apóyanos</h2>
-    <p class="max-w-2xl mx-auto text-lg mb-6">
-      Si te gusta nuestro proyecto y quieres ayudarnos a seguir creando contenido, ¡hazte patrocinador! Puedes apoyarnos con recursos, donaciones o difusión en redes.
-    </p>
-    <a href="mailto:tuemail@ejemplo.com" class="bg-green-500 hover:bg-green-600 px-6 py-3 rounded-lg font-semibold text-white">
-      Contáctanos
-    </a>
-  </section> -->
+    <footer class="py-20 px-6 bg-black text-center relative z-10">
+        <div class="flex justify-center gap-12 mb-10">
+        <a href="https://www.instagram.com/biohazar_dd?igsh=MWJteXU3ZmduNzAzYw==" class="text-bioGreen/50 hover:text-bioGreen transition-all font-mono text-xs tracking-widest" target="_blank">[ INSTAGRAM ]</a>
+        <a href="https://www.facebook.com/share/1QgX2QNCkg/" class="text-bioGreen/50 hover:text-bioGreen transition-all font-mono text-xs tracking-widest" target="_blank">[ FACEBOOK ]</a>
+        <a href="https://www.youtube.com/@YIVUSKA" class="text-bioGreen/50 hover:text-bioGreen transition-all font-mono text-xs tracking-widest" target="_blank">[ YOUTUBE ]</a>
+        </div>
+        <p class="text-gray-800 text-[10px] font-mono tracking-[0.5em] uppercase">
+        BioHazard // 2026 // Acceso Restringido
+        </p>
+    </footer>
+  </main>
 
-  <!-- Redes sociales -->
-  <footer class="py-12 bg-gray-800 text-center">
-    <h3 class="text-2xl font-bold mb-4">Síguenos en redes</h3>
-    <div class="flex justify-center gap-6">
-      <a href="https://facebook.com/" target="_blank" class="hover:text-blue-500">Facebook</a>
-      <a href="https://instagram.com/" target="_blank" class="hover:text-pink-500">Instagram</a>
-      <a href="https://tiktok.com/" target="_blank" class="hover:text-black">TikTok</a>
-      <a href="https://youtube.com/" target="_blank" class="hover:text-red-600">YouTube</a>
-    </div>
-    <p class="text-gray-500 mt-6">© 2026 Nombre del Equipo / Proyecto</p>
-  </footer>
+  <script>
+    function unlockSystem() {
+      // 1. Permitir el scroll (remover clase locked)
+      document.body.classList.remove('locked');
+      
+      // 2. Mostrar el contenido con suavidad
+      const content = document.getElementById('main-content');
+      content.classList.remove('opacity-0');
+      content.classList.add('opacity-100');
+      
+      // 3. Cambiar el texto de estado
+      const status = document.querySelector('p span');
+      status.innerText = "Concedido";
+      status.classList.remove('text-red-600');
+      status.classList.add('text-bioGreen');
+
+      // 4. Bajar a la siguiente sección
+      setTimeout(() => {
+        document.getElementById('sobre').scrollIntoView({ behavior: 'smooth' });
+      }, 300);
+    }
+  </script>
 
 </body>
 </html>
